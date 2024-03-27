@@ -114,7 +114,7 @@ function PostCreateForm() {
   );
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} enctype="multipart/form-data">
       <Row>
         <Col className="py-2 p-0 p-md-2" md={7} lg={8}>
           <Container
