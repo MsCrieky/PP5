@@ -1,3 +1,4 @@
+
 import React, { useRef, useState } from "react";
 
 import Form from "react-bootstrap/Form";
@@ -114,7 +115,7 @@ function PostCreateForm() {
   );
 
   return (
-    <Form onSubmit={handleSubmit} enctype="multipart/form-data">
+    <Form onSubmit={handleSubmit}>
       <Row>
         <Col className="py-2 p-0 p-md-2" md={7} lg={8}>
           <Container
